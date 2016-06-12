@@ -1,6 +1,15 @@
-body {
-	background-color: pink;
+html {
+	margin: 0;
+	padding: 0;
 }
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('http://blueskyisthelimit.com/images/style/background2.jpg'); 
+	background-repeat: repeat-x;
+	z-index: 1;
+}
+
 #about {
 	display: inline;
 	border-right: 2px solid black;
@@ -21,13 +30,42 @@ body {
 	border: 1px solid red;
 }
 
+/*h1 {
+	padding: 50px 0 30px;
+}
+
+h2 {
+	padding: 30px 0 50px;
+}*/
+
 header {
-	display: block;
-	width: 348px;   
+	text-align: center;
+	margin: 0;
+	padding: 0;  
+    
+    width:auto;
+    height:auto;
+}
+
+
+#veni {
+	border: 1px solid red;
+	margin: 0;
+}
+
+section {
+	position: relative;
+	width: 525px;   
 	left: 0;                  
 	right: 0;
-	margin-left: auto;        
-	
+	margin-left: auto ;        
 	margin-right: auto;
 	border: 1px solid red;
+	background-color: white;
+
 }
+
+
+/*#fff0f5
+
+#dcdcdc*/
