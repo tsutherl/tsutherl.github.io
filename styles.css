@@ -46,14 +46,35 @@ header {
     width:auto;
     height:auto;
 }
+h1 {
+	color: white;
+	font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	font-weight: normal;
+	
 
-
-#veni {
-	border: 1px solid red;
-	margin: 0;
 }
 
-section {
+h2 {
+	text-transform: lowercase;
+	color: white;
+}
+
+#veni {
+	margin: 0;
+	box-shadow: 0px 0px 30px #fff;
+}
+
+h3 {
+	position: relative;
+	text-align: center;
+	border: 1px solid red;
+	color:#585858; 
+	
+
+}
+
+#table {
 	position: relative;
 	width: 525px;   
 	left: 0;                  
@@ -61,8 +82,34 @@ section {
 	margin-left: auto ;        
 	margin-right: auto;
 	border: 1px solid red;
-	background-color: white;
+	color: #585858;
+}
 
+section {
+	border: 1px solid red;
+	background-color: #e6e6ff;
+	padding: 60px 0;
+	
+
+
+
+}
+
+#facts {
+	width: 400px;
+	position: relative;
+	left: 22px;
+	color: #585858;
+	border: 1px solid black;
+}
+
+.pages {
+	text-align: center;
+
+}
+
+#veni-zara {
+	text-align: center;
 }
 
 
