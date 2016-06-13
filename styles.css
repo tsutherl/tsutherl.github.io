@@ -122,6 +122,10 @@ section {
 	padding: 20px;
 }
 
+table, th, td {
+	border: 2px solid black;
+}
+
 #bottom {
 	padding: 0 25px;
 	background-image: url('http://blueskyisthelimit.com/images/style/background2.jpg'); 
