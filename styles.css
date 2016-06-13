@@ -7,12 +7,13 @@ body {
 	padding: 0;
 	background-image: url('http://blueskyisthelimit.com/images/style/background2.jpg'); 
 	z-index: 1;
+	padding-bottom: 10px;
 
 }
 
 #about {
 	display: inline;
-	border-right: 2px solid black;
+	border-right: 2px solid white;
 	padding: 0 6px;
 
 }
@@ -22,32 +23,28 @@ body {
 }
 #footer {
 	
-	width: 348px;   
+	width: 355px;   
 	left: 0;                  
 	right: 0;
 	margin-left: auto;        
-	
 	margin-right: auto;
-	border: 1px solid red;
+	color: #585858;
+
+
 }
 
-/*h1 {
-	padding: 50px 0 30px;
-}
-
-h2 {
-	padding: 30px 0 50px;
-}*/
 
 header {
+	
 	text-align: center;
 	margin: 0;
-	padding: 0;  
+	padding: 0 0 10px 0;  
     
     width:auto;
     height:auto;
 }
 h1 {
+	margin: 40px 0 0;
 	color: white;
 	font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
   	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
@@ -62,15 +59,16 @@ h2 {
 }
 
 #veni {
-	margin: 0;
+	
+	margin: 10px 0 8px;
 	box-shadow: 0px 0px 30px #fff;
 }
 
 h3 {
 	position: relative;
 	text-align: center;
-	border: 1px solid red;
 	color:#585858; 
+	padding: 5px 0;
 	
 
 }
@@ -82,15 +80,15 @@ h3 {
 	right: 0;
 	margin-left: auto ;        
 	margin-right: auto;
-	border: 1px solid red;
+	
 	color: #585858;
 }
 
 section {
-	border: 1px solid red;
-	background-color: #e6e6ff;
-	padding: 60px 0;
 	
+	background-color: #e6e6ff;
+	padding: 10px 0;
+	margin-bottom: -18px;
 
 
 
@@ -101,19 +99,21 @@ section {
 	position: relative;
 	left: 22px;
 	color: #585858;
-	border: 1px solid black;
+	
 }
 
 .pages {
 	text-align: center;
+	color: white;
 
 }
 
 .center {
 	text-align: center;
-	border: 2px solid red;
+	
 	background-color: #e6e6ff;
-	padding: 60px 0;
+	padding: 10px 0;
+	color: #585858; 
 
 }
 
@@ -125,10 +125,47 @@ section {
 #bottom {
 	padding: 0 25px;
 	background-image: url('http://blueskyisthelimit.com/images/style/background2.jpg'); 
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
+fieldset {
+	width: 325px;
+	color: white;
+	
+}
 
-/*#fff0f5
+.dogs {
+	border: 3px solid white;
+	margin-top: 10px;
+	
+}
+#baby-collies {
+	color: #585858;
+}
 
-#dcdcdc*/
+.white {
+	color: white;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #80ffaa;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: white;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #4dff88;
+	}
+th {
+	color: #6600ff;
+}
+
+#heart {
+	margin: 65px;
+}
+
