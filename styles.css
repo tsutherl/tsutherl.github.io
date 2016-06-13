@@ -169,3 +169,24 @@ th {
 	margin: 65px;
 }
 
+@media screen and (max-width: 615px)   {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+	font: 400 65px/0.8 'Cookie', Helvetica, sans-serif;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	font-weight: normal;
+  }
+  #veni {
+	
+	width: 250px;
+    height: 350px;
+  }
+  .dogs {
+  	width: 170px;
+  	height: 270px;
+  }
+}
+
+
